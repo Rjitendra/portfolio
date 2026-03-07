@@ -1,40 +1,109 @@
-<section class="container-section">
-  <div class="content">
-    <div class="text-content">
-      <h1>Welcome to <span class="highlight">My Portfolio</span></h1>
-      <p class="subtitle">
-        Explore interview questions, advanced programming concepts, and insights from my experience.
-      </p>
-      <p>
-        This platform is designed to help developers prepare for interviews, stay updated with new
-        technologies, and enhance their coding skills.
-      </p>
-      <button mat-button color="primary" class="cta-btn" type="button">Get Started</button>
-    </div>
-    <div class="image-content">
-      <img alt="Your Name" class="profile-image" src="icons/jitendra_1.png" />
-      <p class="image-caption">Passionate Developer & Interview Coach</p>
-    </div>
-  </div>
-</section>
+<main class="portfolio">
+  <header class="top-nav">
+    <a class="brand" href="#home">Jitendra</a>
+    <nav>
+      <a href="#expertise">Expertise</a>
+      <a href="#projects">Projects</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<section class="highlights">
-  <h2>What You Will Find Here</h2>
-  <div class="highlight-list">
-    <mat-card class="highlight-card">
-      <mat-icon class="highlight-icon">help_outline</mat-icon>
-      <h3>Interview Questions</h3>
-      <p>Top interview questions for Angular, TypeScript, and more.</p>
-    </mat-card>
-    <mat-card class="highlight-card">
-      <mat-icon class="highlight-icon">code</mat-icon>
-      <h3>Advanced Concepts</h3>
-      <p>Learn cutting-edge techniques and best practices.</p>
-    </mat-card>
-    <mat-card class="highlight-card">
-      <mat-icon class="highlight-icon">school</mat-icon>
-      <h3>Learning Resources</h3>
-      <p>Articles, guides, and resources to boost your skills.</p>
-    </mat-card>
-  </div>
-</section>
+  <section id="home" class="hero">
+    <div class="hero-copy">
+      <p class="kicker">Senior Full-Stack Engineer</p>
+      <h1>Building high-trust digital products with Angular and .NET.</h1>
+      <p class="summary">
+        10+ years delivering enterprise-grade platforms, modern UI systems, and APIs that scale.
+        I partner with teams to turn complex ideas into reliable products.
+      </p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#contact">Work With Me</a>
+        <a class="btn btn-ghost" href="#projects">See Projects</a>
+      </div>
+      <div class="quick-stats">
+        <article>
+          <h3>10+</h3>
+          <p>Years Experience</p>
+        </article>
+        <article>
+          <h3>40+</h3>
+          <p>Delivered Features</p>
+        </article>
+        <article>
+          <h3>99.9%</h3>
+          <p>Uptime Focus</p>
+        </article>
+      </div>
+    </div>
+    <div class="hero-card">
+      <img src="icons/jitendra_1.png" alt="Jitendra profile" />
+      <p class="role">Angular, .NET, Azure DevOps</p>
+    </div>
+  </section>
+
+  <section id="expertise" class="section">
+    <h2>Core Expertise</h2>
+    <div class="grid cards">
+      <article>
+        <h3>Frontend Engineering</h3>
+        <p>Angular architecture, reusable components, performance-first UI and clean state flow.</p>
+      </article>
+      <article>
+        <h3>Backend & API</h3>
+        <p>.NET Core, REST APIs, SQL design, and secure integration patterns for business systems.</p>
+      </article>
+      <article>
+        <h3>Delivery & Quality</h3>
+        <p>CI/CD, Azure DevOps, production monitoring and testable codebases for long-term stability.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Selected Work</h2>
+    <div class="grid projects">
+      <article>
+        <p class="tag">Enterprise Portal</p>
+        <h3>Modernized Legacy Platform</h3>
+        <p>Rebuilt a monolith UX into modular Angular apps, reducing release friction and support load.</p>
+      </article>
+      <article>
+        <p class="tag">Productivity Suite</p>
+        <h3>Internal Workflow Automation</h3>
+        <p>Designed API-driven dashboards that improved team throughput and executive visibility.</p>
+      </article>
+      <article>
+        <p class="tag">Engineering Enablement</p>
+        <h3>Interview + Learning Platform</h3>
+        <p>Created structured content and demos for Angular, helping developers upskill faster.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="timeline" class="section timeline">
+    <h2>Career Highlights</h2>
+    <article>
+      <h3>Lead Engineer</h3>
+      <p>Owned architecture decisions, mentored teams, and delivered major features across releases.</p>
+    </article>
+    <article>
+      <h3>Senior Full-Stack Developer</h3>
+      <p>Built scalable web apps with Angular and .NET, focused on performance and maintainability.</p>
+    </article>
+    <article>
+      <h3>Software Developer</h3>
+      <p>Started with enterprise systems and grew into product-level ownership and delivery leadership.</p>
+    </article>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Let’s build something useful</h2>
+    <p>Open to impactful product work, consulting, and engineering leadership opportunities.</p>
+    <div class="contact-links">
+      <a href="mailto:jitu.kdp27@gmail.com">jitu.kdp27@gmail.com</a>
+      <a href="https://linkedin.com/in/jitu64" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="https://x.com/ImRjitendra" target="_blank" rel="noreferrer">X</a>
+    </div>
+  </section>
+</main>
