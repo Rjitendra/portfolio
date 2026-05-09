@@ -1,5 +1,5 @@
 /*
- * Public API Surface of libs
+ * Public API surface of libs
  */
 
 export * from './lib/components/layout/layout.component';

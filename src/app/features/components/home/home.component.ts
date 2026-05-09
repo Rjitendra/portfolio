@@ -45,7 +45,7 @@ export class HomeComponent {
       period: 'Jan 2018 – Sep 2021',
       highlights: [
         'Developed scalable .NET Core applications with Angular front-end',
-        'Contributed to architecture design and deployment on cloud platforms',
+        'Contributed to architecture design and cloud platform delivery',
         'Improved performance and optimized SQL queries using Entity Framework and Dapper',
       ],
     },
