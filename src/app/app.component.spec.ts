@@ -14,9 +14,9 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it("should have the 'NG-Learn' title", () => {
+  it("should have the 'Portfolio' title", () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('NG-Learn');
+    expect(app.title).toEqual('Portfolio');
   });
 });

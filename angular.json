@@ -29,7 +29,7 @@
                 "input": "public"
               }
             ],
-            "styles": ["@angular/material/prebuilt-themes/indigo-pink.css", "src/styles.scss"],
+            "styles": ["src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -90,43 +90,8 @@
                 "input": "public"
               }
             ],
-            "styles": ["@angular/material/prebuilt-themes/azure-blue.css", "src/styles.scss"],
+            "styles": ["src/styles.scss"],
             "scripts": []
-          }
-        }
-      }
-    },
-    "libs": {
-      "projectType": "library",
-      "schematics": {
-        "@schematics/angular:component": {
-          "style": "scss"
-        }
-      },
-      "root": "projects/libs",
-      "sourceRoot": "projects/libs/src",
-      "prefix": "ng",
-      "architect": {
-        "build": {
-          "builder": "@angular/build:ng-packagr",
-          "options": {
-            "project": "projects/libs/ng-package.json"
-          },
-          "configurations": {
-            "production": {
-              "tsConfig": "projects/libs/tsconfig.lib.prod.json"
-            },
-            "development": {
-              "tsConfig": "projects/libs/tsconfig.lib.json"
-            }
-          },
-          "defaultConfiguration": "production"
-        },
-        "test": {
-          "builder": "@angular/build:karma",
-          "options": {
-            "tsConfig": "projects/libs/tsconfig.spec.json",
-            "polyfills": ["zone.js", "zone.js/testing"]
           }
         }
       }
