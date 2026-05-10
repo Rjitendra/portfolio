@@ -1,4 +1,3 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 interface Experience {
@@ -41,7 +40,7 @@ interface SkillCategory {
 
 @Component({
   selector: 'ng-home',
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
